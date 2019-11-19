@@ -20,24 +20,30 @@ You will need npm installed on your machine.
 	
 
 ### Install mocha and report packages
+Run this commands from root project directory:
+
 ```
 npm install mocha
 npm install mochawesome
 ```
 ### Install project dependencies
+Run this command from root project directory:
+
 ```
 npm install
 ```
 
 ## Edit config.json
-Please check `config.json` file in project root:
-1. You need to replace **GistUserName** with valid github username
-2. You need to replace **AuthToken** with token that have gist (Create gists) right enabled
-3. You need to replace **TokenWithoutCreateGistsRights** with token that DOES NOT have gist (Create gists) right enabled
+Open `config.json` file in project root:
+1. Replace **GistUserName** with valid github username
+2. Replace **AuthToken** with token that haw gist (Create gists) right enabled
+3. Replace **TokenWithoutCreateGistsRights** with token that DOES NOT have gist (Create gists) right enabled
 
 You can generate tokens here https://github.com/settings/tokens
 
 ## Run tests
+Run this command from root project directory:
+
 ```
 npm test
 ```
