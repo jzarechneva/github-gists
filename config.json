@@ -1,0 +1,8 @@
+{
+    "GistUserName": "<Replace with github username>",
+    "AuthToken": "<Replace with token of abobe user which have 'Create gist' right>",
+    "TokenWithoutCreateGistsRights": "<Replace with token of abobe user which DO NOT have 'Create gist' right>",
+    "URL": "https://api.github.com",
+    "UnauthenticatedRequestsRateLimit": "60",
+    "AuthenticatedRequestsRateLimit": "5000"
+}

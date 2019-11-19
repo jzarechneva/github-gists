@@ -1,0 +1,27 @@
+{
+  "name": "github-gists",
+  "version": "1.0.0",
+  "description": "Automated tests that cover the basics of authorization flow, CRUD operations and rate limits cases using GitHub Gists API",
+  "main": "_gistClient.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-json": "^1.0.0",
+    "chai-string": "^1.5.0",
+    "chai-subset": "^1.6.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=test_results,reportFilename=fullReport"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llina90/github-gists.git"
+  },
+  "author": "llina904@gmail.com",
+  "license": "ISC",
+  "homepage": "https://github.com/llina90/github-gists#readme"
+}
